@@ -80,6 +80,8 @@ const BasketScreen = () => {
             </View>
           ))}
         </ScrollView>
+
+        <View></View>
       </View>
     </SafeAreaView>
   );
