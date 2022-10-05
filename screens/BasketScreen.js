@@ -1,4 +1,11 @@
-import { View, Text, TouchableOpacity, Image, ScrollView } from "react-native";
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  Image,
+  ScrollView,
+  SafeAreaView,
+} from "react-native";
 import React, { useEffect, useMemo, useState } from "react";
 import { useNavigation } from "@react-navigation/native";
 import { useDispatch, useSelector } from "react-redux";
@@ -8,7 +15,6 @@ import {
   selectBasketItems,
   selectBasketTotal,
 } from "../features/basketSlice";
-import { SafeAreaView } from "react-native-safe-area-context";
 import { XCircleIcon } from "react-native-heroicons/solid";
 import { urlFor } from "../sanity";
 import Currency from "react-currency-formatter";
@@ -108,7 +114,10 @@ const BasketScreen = () => {
             </Text>
           </View>
 
-          <TouchableOpacity className="rounded-lg bg-[#00CCBB] p-4">
+          <TouchableOpacity
+            onPress={() => navigation.navigate("PreparingOrderScreen")}
+            className="rounded-lg bg-[#00CCBB] p-4"
+          >
             <Text className="text-center text-white text-lg font-bold">
               Place Order
             </Text>
