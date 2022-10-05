@@ -48,7 +48,7 @@ export default function HomeScreen() {
   }, []);
 
   return (
-    <SafeAreaView className="bg-white pt-5">
+    <SafeAreaView className="bg-black pt-5">
       {/* Header */}
       <View className="flex-row pb-3 items-center mx-4 space-x-2">
         <Image
@@ -58,7 +58,7 @@ export default function HomeScreen() {
 
         <View className="flex-1">
           <Text className="font-bold text-gray-400 text-xs">Deliver Now!</Text>
-          <Text className="font-bold text-xl">
+          <Text className="font-bold text-xl text-white">
             Current Location
             <ChevronDownIcon size={20} color="#00CCBB" />
           </Text>
@@ -82,7 +82,7 @@ export default function HomeScreen() {
 
       {/* Body */}
       <ScrollView
-        className="bg-gray-100"
+        className="bg-gray-100 bg-black"
         contentContainerStyle={{ paddingBottom: 100 }}
       >
         {/* Categories */}
