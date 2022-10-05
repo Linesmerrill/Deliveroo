@@ -1,5 +1,5 @@
 {
-  "name": "deliveroo-clone",
+  "name": "deliveroo-delivery-application-clone",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
@@ -27,7 +27,8 @@
     "react-native-svg": "12.3.0",
     "react-redux": "^8.0.4",
     "tailwindcss-react-native": "^1.7.10",
-    "react-native-maps": "0.31.1"
+    "react-native-maps": "0.31.1",
+    "expo-updates": "~0.14.6"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
