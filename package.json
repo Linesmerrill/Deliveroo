@@ -38,5 +38,23 @@
     "@react-native-community/cli": "latest",
     "tailwindcss": "^3.1.8"
   },
-  "private": true
+  "private": true,
+  "expo": {
+    "doctor": {
+      "reactNativeDirectoryCheck": {
+        "exclude": [
+          "react-native-maps",
+          "react-native-heroicons",
+          "@sanity/client",
+          "@sanity/image-url",
+          "metro",
+          "metro-config",
+          "metro-react-native-babel-preset",
+          "react-currency-formatter",
+          "tailwindcss-react-native"
+        ],
+        "listUnknownPackages": false
+      }
+    }
+  }
 }
