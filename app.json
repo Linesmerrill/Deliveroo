@@ -24,7 +24,7 @@
       "bundleIdentifier": "com.linesmerrill.deliverooclone"
     },
     "android": {
-      "versionCode": 2, // Increment this value
+      "versionCode": 3,
       "targetSdkVersion": 34,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
