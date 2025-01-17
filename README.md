@@ -4,12 +4,21 @@ iOS/Android React Native project of [Deliveroo](https://deliveroo.co.uk/). Built
 
 <img src="assets/screenshots/app-demo.gif" width="300"/>
 
+## How to run
+
+Install dependencies:
+
+`npm i`
+
+If using Expo, you can push the changes with:
+
+`eas update`
+
 ## Screenshots
 
 <img src="assets/screenshots/home-page.png" width="200"/>&nbsp; &nbsp; &nbsp; &nbsp;<img src="assets/screenshots/restaurant-page.png" width="200"/>&nbsp; &nbsp; &nbsp; &nbsp;<img src="assets/screenshots/restaurant-page2.png" width="200"/>
 
 <img src="assets/screenshots/basket-page.png" width="200"/>&nbsp; &nbsp; &nbsp; &nbsp;<img src="assets/screenshots/preparing-order-page.png" width="200"/>&nbsp; &nbsp; &nbsp; &nbsp;<img src="assets/screenshots/delivery-page.png" width="200"/>
-
 
 ## References
 
