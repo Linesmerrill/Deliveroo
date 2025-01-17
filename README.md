@@ -4,15 +4,37 @@ iOS/Android React Native project of [Deliveroo](https://deliveroo.co.uk/). Built
 
 <img src="assets/screenshots/app-demo.gif" width="300"/>
 
-## How to run
+## How to Run
 
-Install dependencies:
+### Install Dependencies
 
 `npm i`
 
-If using Expo, you can push the changes with:
+### Start it up
+
+`npx expo start`
+
+## How to Deploy Changes to Expo
+
+### Optimize assets
+
+`npx expo-optimize`
+
+## Publish to Expo
 
 `eas update`
+
+### Build for Android and/or iOS
+
+`eas build`
+
+#### To create a Development Build
+
+`eas build --profile development`
+
+### Submit to the App store and Google Play store
+
+`eas submit`
 
 ## Screenshots
 
